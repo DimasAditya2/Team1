@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "name": "Javascript",
+        "description": "lorem ipsum color amet lur",
+        "duration": 20,
+        "CategoryId": 1
+    },
+    {
+        "id": 2,
+        "name": "CSS",
+        "description": "lorem ipsum color amet lur",
+        "duration": 20,
+        "CategoryId": 2
+    },
+    {
+        "id": 3,
+        "name": "Sequelize",
+        "description": "lorem ipsum color amet lur",
+        "duration": 20,
+        "CategoryId": 3
+    }
+]
+
