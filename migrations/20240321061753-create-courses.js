@@ -13,16 +13,17 @@ module.exports = {
         type: Sequelize.STRING
       },
       description: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER
       },
       duration: {
         type: Sequelize.INTEGER
       },
       CategoryId: {
-        type: Sequelize.INTEGER
-      },
-      userId: {
-        type: Sequelize.STRING
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'Categories',
+          key: 'id'
+        }
       },
       createdAt: {
         allowNull: false,
